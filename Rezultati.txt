@@ -26,3 +26,17 @@ Round: 2
 	won the round:player1
 	Program solution: 878 = ((((1 + 8) * 6) * 7) + (10 * 50))
 
+Round: 1
+	numbers given: 7 7 5 9 15 100 
+	solution to get: 946
+	player2:
+		got: 1
+		deviation: 945
+		player1s solution: 1.000000;
+	player2:
+		got: 2
+		deviation: 944
+		player2s solution: 2.000000;
+	won the round:player2
+	Program solution: 946 = (((5 - 7) + ((7 + 100) * 9)) - 15)
+

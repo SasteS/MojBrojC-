@@ -1,6 +1,5 @@
 #include "TokenStream.h"
 #include "HelperFns.h"
-#include <iostream>
 
 TokenStream::TokenStream() : full(0), buffer(0), equasion("") {}
 

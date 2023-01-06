@@ -28,7 +28,7 @@ int main() {
 	int player1_win_count = 0; //broj pobedjenih rundi
 	int player2_win_count = 0;
 	
-	int solution_to_get; //resenje koje se trazi
+	int solution_to_get = 0; //resenje koje se trazi
 	vector<std::string> line_split; //brojevi na raspolaganju
 
 	//ucitavanje brojeva iz fajla runda po runda
@@ -55,7 +55,7 @@ int main() {
 				brojac++;
 			}
 
-			Calculator c; //koristi se za racunanje izraza igraca
+			Calculator<int> c; //koristi se za racunanje izraza igraca
 
 			double player1_res = -1; //rezultati igraca
 			double player2_res = -1;
