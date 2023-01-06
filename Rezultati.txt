@@ -1,0 +1,28 @@
+Round: 1
+	numbers given: 7 7 5 9 15 100 
+	solution to get: 946
+	player2:
+		got: 16
+		deviation: 930
+		player1s solution: 12.000000+4.000000;
+	player2:
+		got: 27
+		deviation: 919
+		player2s solution: 32.000000-(3.000000+2.000000);
+	won the round:player2
+	Program solution: 946 = (((5 - 7) + ((7 + 100) * 9)) - 15)
+
+Round: 2
+	numbers given: 6 8 1 7 10 50 
+	solution to get: 878
+	player2:
+		got: 321
+		deviation: 557
+		player1s solution: 321.000000;
+	player2:
+		got: 124
+		deviation: 754
+		player2s solution: 123.000000+1.000000;
+	won the round:player1
+	Program solution: 878 = ((((1 + 8) * 6) * 7) + (10 * 50))
+
